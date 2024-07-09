@@ -6,8 +6,8 @@
   font-style: normal;
 }
 /* shared style */
-.decondery-bg{
-
+.secondary-bg{
+background-color: #fff8f3;
 }
 .text-primary{
     color: #FD6E0A;
@@ -41,6 +41,7 @@
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+    background-color: aqua;
 }
 /* nav styles */
 nav{
@@ -151,4 +152,33 @@ main section{
 }
 .resume-download-cv{
     margin-top: 10PX;
+}
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
